@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  
+}
+.card {
+  margin: 20px auto;
+  width: 300px;
+  border: 1px solid lightgray;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.img {
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+}
+.btn {
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  cursor: pointer;
+}
+.btn1 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 0 10px 10px 0;
+}
+
+.btn2 {
+  position: sticky;
+  top: 0;
+  width: 300px;
+  text-align: center;
+  margin: 10px auto;
+}
+.absolute{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(235, 180, 180);
+    color: tomato;
+    margin: 10px;
+    border-radius: 16px;
+    padding: 6px 16px;
+}
+.relative{
+    position: relative;
+}
